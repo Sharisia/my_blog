@@ -1,36 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Enter Sharisia's BLOG</title>
 </head>
+
 <body>
 
-    <a href="Blog.html">Home</a> 
+    <a href="Blog.html">Home</a>
     <a href="SignUp.html">Create An Account</a>
     <a href="Contact.html">Reach Us Directly</a><br>
 
     <h1>Create An Account</h1>
     <p>Please fill this form to create and account with Sharisia's BLOG</p><br>
 
-    <form action="">
-        <input type="text" placeholder="Enter Your Name" name="Name" required><br>
-        <input type="Email" placeholder="Enter Your Email Address" name="Email" required><br>
-        <input type="tel" placeholder="Enter Your Telephone Number" name="Telephone"><br>
-        <input type="Country" placeholder="Select Continent" name="Continent" required><br>
-        <select name="" id="">
-            <option value="">Africa</option>
-            <option value="">Asia</option>
+    <form action="login">
+        <label for="Username">Username:</label>
+        <input type="text" placeholder="Username goes here" name="Username" required ><br><br>
+        
+        <label for="name">First Name:</label>
+        <input type="text" placeholder="first name goes here" name="Name" required><br><br>
+        
+        <label for="name">Second Name:</label>
+        <input type="text" placeholder="second name goes here" required><br><br>
+        
+        <label for="date">Date of Birth:</label>
+        <input type="date" required><br><br>
+        <label for="Gender">Gender:</label>
+        <label>
+            <input type="radio" name="gender" value="male">
+            Male
+        </label>
+
+        <label>
+            <input type="radio" name="gender" value="female">
+            Female
+        </label>
+
+        <label>
+            <input type="radio" name="gender" value="other">
+            Other
+        </label><br><br>
+        <label for="Email">Email Address:</label>
+        <input type="Email" placeholder="Enter Your Email Address" name="Email" required><br><br>
+        <label for="password">Password:</label>
+        <input type="password" placeholder="Password goes here" name="Password" required><br><br>
+        <label for="phone">Telephone number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter Your Phone Number here" required><br><br>
+        <label for="Continent">Select Continent:</label>
+        <select name="Continent" id="Continent">
+            <option value="africa">Africa</option>
+            <option value="asia">Asia</option>
             <option value="">Europe</option>
             <option value="">North America</option>
             <option value="">South America</option>
             <option value="">Oceana</option>
             <option value="">Antactica</option>
-        </select><br>
-        <textarea name="" id="" cols="30" rows="10"></textarea><br>
-        <input type="submit" placeholder="Send"><br>
-    </form>
-    
+        </select><br><br>
+        <label for="Message">Message:</label><br>
+        <textarea name="" id="" cols="30" rows="10"></textarea><br><br>
+        <label for="color">What is Your Favorite Colour?</label>
+        <input type="color" placeholder="Enter Your Favorite Colour" name="Colour" required><br><br>
+        <input type="submit" placeholder="Send" value="login"><br><br>
+        <input type="reset" placeholder="reset"><br><br>
+    </form><br><br>
+
+    <footer style="background-color: darkslategray;">
+        <p style="color:white;">&copy; 2023 Sharisia's BLOG. All rights reserved.</p>
+        <p>Contact: info@Sharisia'sBLOG.com</p>
+    </footer>
+
 </body>
+
 </html>

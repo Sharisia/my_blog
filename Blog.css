@@ -1,0 +1,170 @@
+body {
+    background-color: white;
+    margin: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav {
+    background-color: rgb(202, 202, 232);
+    margin-left: -2%;
+    margin-right: -2%;
+}
+
+.stories {}
+
+.community {}
+
+.heading2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    color: rgb(121, 5, 53);
+}
+
+.heading3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#menu {
+    background-color: rgb(121, 5, 53);
+    padding-top: 50px;
+    margin: 50px;
+}
+
+#menu p {
+    text-align: center;
+}
+
+tr,
+td {
+    padding: 5px;
+}
+
+.contact {
+    margin-left: -2%;
+    margin-right: -2%;
+    margin-top: 0%;
+    margin-bottom: 5%;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.contact p {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 0%;
+    margin-bottom: 5%;
+    font-size: x-large;
+    letter-spacing: 0.2px;
+    line-height: 1.5;
+    
+}
+
+.contact1 {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 0%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.contact1 p {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 0%;
+    margin-bottom: 5%;
+    font-size: large;
+    letter-spacing: 0.5px;
+    line-height: 2;
+}
+
+.contact1 h2 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: rgb(121, 5, 53);
+}
+
+.contact2 {
+    border-collapse: collapse;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 0%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.contact21{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 0%;
+    margin-bottom: 5%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+td, tr {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    text-align: justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contact2 h2{
+    margin-top: 0%;
+    margin-bottom: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    color: rgb(121, 5, 53);
+}
+nav {
+    padding: 25px;
+    text-align: center;
+    font-size: larger;
+}
+
+.form {
+    background-color: rgb(245, 164, 183);
+    padding: 25px;
+    width: 30%;
+    margin: 0 auto;
+}
+
+input,
+select,
+button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+button {
+    margin-bottom: 25px;
+    background-color: green;
+    color: white;
+}
+
+button:hover {
+    background-color: red;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+}
+
+nav a {
+    padding-left: 20px;
+}
+
+.stories h4 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.stories p {
+    font-style: italic;
+}
+
+.reset {
+    border-top: 1px solid rgb(101, 86, 86);
+    margin-bottom: 20px;
+}

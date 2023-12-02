@@ -1,0 +1,78 @@
+body{
+    background-color: cyan;
+    width: 100%;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+}
+img{
+    width: 100%;
+}
+
+.right, .left{
+    width: 45%;
+    padding: 30px;
+}
+.right1, .right2{
+    display: flex;
+    width: 70%;
+    margin: auto;
+}
+.cent{
+    width: 100%;
+    padding: 5px;
+    background-color: rgb(226, 53, 111);
+}
+.cent1 {
+    width: 30%;
+    margin: 10px;
+}
+img{
+    border-radius: 10px;
+}
+.container{
+    width: 70%;
+    display: flex;
+    margin: auto;
+}
+.cent h2{
+    text-align: center;
+}
+
+.class{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.class1, .class2{
+    width: 45%;
+    padding: 30px;
+}
+.class12{
+    padding: 20px;
+}
+input{
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    margin: auto;
+    border-color: grey solid;
+    border: 1px solid;
+}
+
+textarea{
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border-color: grey solid;
+    padding-bottom: 50px;
+    margin: auto;
+    border: 1px solid;
+}
+button{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.class1 h2{
+    padding-left: 20px;
+}

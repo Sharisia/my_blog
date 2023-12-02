@@ -1,13 +1,17 @@
 body {
     background-color: white;
-    margin: 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navigation-container{
+background-color: rgb(121, 5, 53);
 }
 
 nav {
     background-color: rgb(202, 202, 232);
-    margin-left: -2%;
-    margin-right: -2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 15px;
 }
 
 .stories {}
@@ -25,13 +29,13 @@ nav {
 }
 
 #menu {
-    background-color: rgb(121, 5, 53);
-    padding-top: 50px;
-    margin: 50px;
+    background-color: color: rgb(121, 5, 53);
+    padding-top: 30px;
+    text-align: center;
 }
 
 #menu p {
-    text-align: center;
+   
 }
 
 tr,

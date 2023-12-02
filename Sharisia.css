@@ -1,0 +1,77 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container1{ 
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    width: 20%;
+    padding: 20px;
+}
+
+nav{
+    text-align: right; 
+}
+
+.login{
+    background-color: ivory;
+    text-align: center;
+    padding-bottom: 80px;
+    padding-top: 30px;
+}
+
+input#login{
+    padding: 15px;
+    width: 450px;
+    border-radius: 10px;
+    border: solid rgb(188, 197, 216);
+    color: #cbc5c5;
+}
+
+button{
+    padding: 10px; 
+    width: 210px; 
+    border-radius: 20px; 
+    border: 0.5px solid grey;
+    background-color: #0d6efd;
+    color: white;
+}
+
+.container2{
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+.left img{
+    width: 90%;
+    height: 90%;
+}
+
+.right{
+    align-items: center;
+    
+}
+
+.right2 input{
+    width: 70%;
+    padding: 12px;
+    border-radius: 5px;
+    margin: auto;
+    border-color: grey solid;
+    border: 1px solid;
+    font-size: larger;
+}
+
+.Introduction{
+    background-image: url(images/SBbackground.jpg);
+    /*background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;*/
+}

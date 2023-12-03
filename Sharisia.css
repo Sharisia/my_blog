@@ -102,3 +102,46 @@ button{
 .Gallery button{
     margin-bottom: 20px;
 }
+
+.contact {
+    background-color:  rgb(121, 5, 53);
+    color: white;
+    padding-top: 5px;
+}
+
+.random{
+    width: 50%;
+    margin: auto;
+    margin-top:5%;
+}
+.contact1{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    font-size: xx-large; 
+    margin-top: 0%;
+}
+.contact21{
+    margin: auto;
+    width: 70%;
+    margin-bottom: 10%;
+}
+
+td, tr {
+    padding: 10px;
+    border: 1px solid rgb(249, 248, 248);
+    text-align: justify;
+    width: 70px;
+    font-size: larger;
+    border-collapse: 1px;
+}
+
+tr:nth-child(even) {
+    background-color:  rgb(250, 191, 216);
+  }
+
+table {
+    margin-top: 15%;
+    border-collapse: collapse;
+  }
+

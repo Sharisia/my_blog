@@ -13,6 +13,7 @@ body{
 img{
     width: 20%;
     padding: 20px;
+    align-items: center;
 }
 
 nav{
@@ -74,4 +75,29 @@ button{
     /*background-size: cover;
     background-repeat: no-repeat;
     background-position: center;*/
+}
+
+.Gallery{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.Gallery img{
+    width: 90%;
+    object-fit: cover;
+    border-radius: 10px;
+    /*padding: 10%;*/
+    align-items: center;
+    justify-content: center;
+}
+
+.Gallery1, .Gallery2{
+
+}
+.Gallery button{
+    margin-bottom: 20px;
+    
 }

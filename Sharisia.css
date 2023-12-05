@@ -21,7 +21,7 @@ nav{
 }
 
 .login{
-    background-color: ivory;
+    background-color:rgb(254, 244, 220); 
     text-align: center;
     padding-bottom: 80px;
     padding-top: 30px;
@@ -40,7 +40,7 @@ button{
     width: 210px; 
     border-radius: 20px; 
     border: 0.5px solid grey;
-    background-color: #0d6efd;
+    background-color: rgb(116, 4, 4);
     color: white;
 }
 
@@ -72,9 +72,88 @@ button{
 
 .Introduction{
     background-image: url(images/SBbackground.jpg);
-    /*background-size: cover;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;*/
+    background-position: center;
+    height: 105vh; 
+    margin: 0;
+}
+
+.Introduction1{
+    float: right;
+    text-align: center;
+    width: 45%;
+    height: 100%;
+    background-color: rgba(130, 126, 126, 0.21);
+}
+
+.Introduction1 h1{
+    font-size: 80px;
+    letter-spacing: 2px;
+    color:  rgb(116, 4, 4);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Introduction1 button{
+    font-size: larger;
+    letter-spacing: 2px;
+}
+
+.display{
+    width: 95%;
+    margin: auto;
+    padding-top: 5%;
+}
+
+.display1{
+text-align: center;
+}
+
+.display2{
+    display: flex;
+    padding-top: 3%;
+    background-color: rgb(247, 232, 198);
+    padding-bottom: 3%;
+    
+}
+
+.display2 h3{
+    text-align: center;
+    color:  rgb(116, 4, 4);
+}
+
+/*.display2 div{
+    width: 30%;
+    margin: auto;
+}*/
+
+.display2 img{
+    width: 90%;
+    object-fit: cover;
+    border-radius: 10%;
+    align-items: center;
+    justify-content: center;
+}
+.display2 p{
+    padding: 5%;
+}
+
+.Home{
+    width: 90%;
+    margin: auto;
+    padding-top: 5%;
+    margin-bottom: 5%;
+}
+
+.Home img{
+    object-fit: cover;
+    width: 100%;
+    height: 350px;
+    border-radius: 50px;
+}
+
+.Home1{
+    padding-left: 25px;
 }
 
 .Gallery{
@@ -156,7 +235,7 @@ td, tr {
 }
 
 tr:nth-child(even) {
-    background-color:  rgb(250, 191, 216);
+    background-color:  rgb(249, 202, 82);
   }
 
 table {
@@ -164,3 +243,8 @@ table {
     border-collapse: collapse;
   }
 
+  footer {
+    text-align: center;
+    padding: 25px;
+    color: white;
+}
